@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        tools:context="com.epson.moverio.Bt3sApiTestTrackPadControl.MainActivity"
+        android:weightSum="1"
+    android:divider="@android:drawable/divider_horizontal_dark"
+    android:dividerPadding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvRotationAngle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="TrackPad Rotation Angle:"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spRotationAngle"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentRotationAngle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="TRACKPAD_ANGLE_0 (0)"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/swEnable"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="TrackPad Enable:"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/tvTimeout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:text="TrackPad Disable Timeout:"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textSize="14sp"
+            android:textStyle="normal|bold" />
+
+        <NumberPicker
+            android:id="@+id/npTimeout"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Sec"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/tvEnableCountDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:textColor="@android:color/holo_blue_dark" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCoordinateMode"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="TrackPad Coordinate Mode:"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spCoordinateMode"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentCoordinateMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="TRACKPAD_RELATIVE_MODE (0) "
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSensitivity"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Sensitivity of touch sensor:"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spSensitivity"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentSensitivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="ESPAD_SENSITIVITY_LOW (0) "
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:id="@+id/svEventLog"
+            style="@android:style/Widget.Material.ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/frame_style">
+
+            <TextView
+                android:id="@+id/tvEventLog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textSize="18sp" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

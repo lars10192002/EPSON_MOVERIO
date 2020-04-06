@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">SampleTrackPadControl</string>
+
+    <string-array name="trackpadangle_list">
+        <item>TRACKPAD_ANGLE_0 (0)</item>
+        <item>TRACKPAD_ANGLE_90 (90)</item>
+        <item>TRACKPAD_ANGLE_180 (180)</item>
+        <item>TRACKPAD_ANGLE_270 (270)</item>
+    </string-array>
+    <string-array name="trackpadmode_list">
+        <item>TRACKPAD_RELATIVE_MODE (0)</item>
+        <item>TRACKPAD_ABSOLUTE_MODE (1)</item>
+    </string-array>
+    <string-array name="sensitivity_list">
+        <item>ESPAD_SENSITIVITY_LOW (0)</item>
+        <item>ESPAD_SENSITIVITY_MIDDLE (1)</item>
+        <item>ESPAD_SENSITIVITY_HIGH_1 (2)</item>
+        <item>ESPAD_SENSITIVITY_HIGH_2 (3)</item>
+    </string-array>
+
+    <!-- Spinnerのドロップダウンアイテム -->
+    <string-array name="trackpadangle_spinner_item1">
+        <item name="key">0</item>
+        <item name="value">TRACKPAD_ANGLE_0 (0)</item>
+    </string-array>
+    <string-array name="trackpadangle_spinner_item2">
+        <item name="key">90</item>
+        <item name="value">TRACKPAD_ANGLE_90 (90)</item>
+    </string-array>
+    <string-array name="trackpadangle_spinner_item3">
+        <item name="key">180</item>
+        <item name="value">TRACKPAD_ANGLE_180 (180)</item>
+    </string-array>
+    <string-array name="trackpadangle_spinner_item4">
+        <item name="key">270</item>
+        <item name="value">TRACKPAD_ANGLE_270 (270)</item>
+    </string-array>
+    <string-array name="trackpadangle_spinner_item5">
+        <item name="key">-1</item>
+        <item name="value">TRACKPAD_ANGLE_INVALID (-1)</item>
+    </string-array>
+
+    <string-array name="trackpadmode_spinner_item1">
+        <item name="key">0</item>
+        <item name="value">TRACKPAD_RELATIVE_MODE (0)</item>
+    </string-array>
+    <string-array name="trackpadmode_spinner_item2">
+        <item name="key">1</item>
+        <item name="value">TRACKPAD_ABSOLUTE_MODE (1)</item>
+    </string-array>
+    <string-array name="trackpadmode_spinner_item3">
+        <item name="key">-1</item>
+        <item name="value">TRACKPAD_INVALID_MODE (-1)</item>
+    </string-array>
+
+    <string-array name="sensitivity_spinner_item1">
+        <item name="key">0</item>
+        <item name="value">ESPAD_SENSITIVITY_LOW (0)</item>
+    </string-array>
+    <string-array name="sensitivity_spinner_item2">
+        <item name="key">1</item>
+        <item name="value">ESPAD_SENSITIVITY_MIDDLE (1)</item>
+    </string-array>
+    <string-array name="sensitivity_spinner_item3">
+        <item name="key">2</item>
+        <item name="value">ESPAD_SENSITIVITY_HIGH_1 (2)</item>
+    </string-array>
+    <string-array name="sensitivity_spinner_item4">
+        <item name="key">3</item>
+        <item name="value">ESPAD_SENSITIVITY_HIGH_2 (3)</item>
+    </string-array>
+    <string-array name="sensitivity_spinner_item5">
+        <item name="key">-1</item>
+        <item name="value">ESPAD_SENSITIVITY_INVALID (-1)</item>
+    </string-array>
+
+
+    <array name="trackpadangle_spinner_data">
+        <item>@array/trackpadangle_spinner_item1</item>
+        <item>@array/trackpadangle_spinner_item2</item>
+        <item>@array/trackpadangle_spinner_item3</item>
+        <item>@array/trackpadangle_spinner_item4</item>
+        <item>@array/trackpadangle_spinner_item5</item>
+    </array>
+
+    <array name="trackpadmode_spinner_data">
+        <item>@array/trackpadmode_spinner_item1</item>
+        <item>@array/trackpadmode_spinner_item2</item>
+        <item>@array/trackpadmode_spinner_item3</item>
+    </array>
+
+    <array name="sensitivity_spinner_data">
+        <item>@array/sensitivity_spinner_item1</item>
+        <item>@array/sensitivity_spinner_item2</item>
+        <item>@array/sensitivity_spinner_item3</item>
+        <item>@array/sensitivity_spinner_item4</item>
+        <item>@array/sensitivity_spinner_item5</item>
+    </array>
+
+
+</resources>

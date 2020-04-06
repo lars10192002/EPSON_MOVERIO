@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@android:drawable/divider_horizontal_dark"
+    android:dividerPadding="10dp"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="10dp"
+    android:weightSum="1"
+    tools:context="com.epson.moverio.bt3sapitestkeyctrl.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="893dp"
+            android:layout_height="wrap_content"
+            android:text="Enable            Physical Key                                       Key Event Code                                               Current Key Event Code"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/swInputParam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <EditText
+            android:id="@+id/etPhysicalkey"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="50dp"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etSetKeyEventCode"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="50dp"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSetKeyAssign"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="setKeyAssign"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark" />
+
+        <EditText
+            android:id="@+id/etGetKeyEventCode"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberSigned"
+            android:textSize="16sp"
+            tools:focusable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <Switch
+            android:id="@+id/swDpadUp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tvDpadUp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Bt3sCustomKey.DPAD UP (19)"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spDpadUp"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentDpadUp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="KEYCODE_DPAD_UP (19)"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <Switch
+            android:id="@+id/swDpadDown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tvDpadDown"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Bt3sCustomKey.DPAD DOWN (20)"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spDpadDown"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentDpadDown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="KEYCODE_DPAD_DOWN (20)"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/swDpadLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tvDpadLeft"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Bt3sCustomKey.DPAD LEFT (21)"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spDpadLeft"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentDpadLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="KEYCODE_DPAD_LEFT (21)"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <Switch
+            android:id="@+id/swDpadRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tvDpadRight"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Bt3sCustomKey.DPAD RIGHT (22)"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spDpadRight"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentDpadRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="KEYCODE_DPAD_RIGHT (22)"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <Switch
+            android:id="@+id/swDpadCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tvDpadCenter"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Bt3sCustomKey.DPAD CENTER (23)"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spDpadCenter"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentDpadCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="KEYCODE_DPAD_CENTER (23) "
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <Switch
+            android:id="@+id/swVolumeUp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tvVolumeUp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Bt3sCustomKey.VOLUME UP (24)"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spVolumeUp"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentVolumeUp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="KEYCODE_VOLUME_UP (24)"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <Switch
+            android:id="@+id/swVolumeDown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true">
+
+            <requestFocus />
+        </Switch>
+
+        <TextView
+            android:id="@+id/tvVolumeDown"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Bt3sCustomKey.VOLUME DOWN (25)"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+
+        <Spinner
+            android:id="@+id/spVolumeDown"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentVolumeDown"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="KEYCODE_VOLUME_DOWN (25)"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <Switch
+            android:id="@+id/swFunction"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/tvFunction"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Bt3sCustomKey.FUNCTION (119)"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spFunction"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCurrentFunction"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:text="KEYCODE_FUNCTION (119)"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/swBack"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:gravity="right|center_vertical"
+            android:text="BACK (4)" />
+
+        <Switch
+            android:id="@+id/swHome"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:gravity="right|center_vertical"
+            android:text="HOME (3)" />
+
+        <Switch
+            android:id="@+id/swAppSwitch"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:gravity="right|center_vertical"
+            android:text="APP_SWITCH (187)" />
+
+        <Switch
+            android:id="@+id/swPower"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:gravity="right|center_vertical"
+            android:text="POWER (26)" />
+
+        <Button
+            android:id="@+id/btnResetToDefult"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="ResetToDefult"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:id="@+id/svEventLog"
+            style="@android:style/Widget.Material.ScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/frame_style">
+
+            <TextView
+                android:id="@+id/tvEventLog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textSize="16sp" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tvKeyEventLog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/frame_style"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

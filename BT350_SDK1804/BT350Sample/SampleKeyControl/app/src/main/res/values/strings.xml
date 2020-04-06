@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">SampleKeyControl</string>
+
+    <string-array name="keycode_list">
+        <item>KEYCODE_DPAD_UP (19)</item>
+        <item>KEYCODE_DPAD_DOWN (20)</item>
+        <item>KEYCODE_DPAD_LEFT (21)</item>
+        <item>KEYCODE_DPAD_RIGHT (22)</item>
+        <item>KEYCODE_DPAD_CENTER (23)</item>
+        <item>KEYCODE_VOLUME_UP (24)</item>
+        <item>KEYCODE_VOLUME_DOWN (25)</item>
+        <item>KEYCODE_FUNCTION (119)</item>
+    </string-array>
+
+    <string-array name="keycode_spinner_item1">
+       <item name="key">19</item>
+       <item name="value">KEYCODE_DPAD_UP (19)</item>
+    </string-array>   
+    <string-array name="keycode_spinner_item2">
+       <item name="key">20</item>
+       <item name="value">KEYCODE_DPAD_DOWN (20)</item>
+    </string-array>   
+    <string-array name="keycode_spinner_item3">
+       <item name="key">21</item>
+       <item name="value">KEYCODE_DPAD_LEFT (21)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item4">
+        <item name="key">22</item>
+        <item name="value">KEYCODE_DPAD_RIGHT (22)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item5">
+        <item name="key">23</item>
+        <item name="value">KEYCODE_DPAD_CENTER (23)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item6">
+        <item name="key">24</item>
+        <item name="value">KEYCODE_VOLUME_UP (24)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item7">
+        <item name="key">25</item>
+        <item name="value">KEYCODE_VOLUME_DOWN (25)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item8">
+        <item name="key">119</item>
+        <item name="value">KEYCODE_FUNCTION (119)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item9">
+        <item name="key">131</item>
+        <item name="value">KEYCODE_F1 (131)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item10">
+        <item name="key">132</item>
+        <item name="value">KEYCODE_F2 (132)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item11">
+        <item name="key">133</item>
+        <item name="value">KEYCODE_F3 (133)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item12">
+        <item name="key">134</item>
+        <item name="value">KEYCODE_F4 (134)</item>
+    </string-array>
+    <string-array name="keycode_spinner_item13">
+        <item name="key">-1</item>
+        <item name="value">KEYCODE_INVALID (-1)</item>
+    </string-array>
+
+
+    <array name="keycode_spinner_data">
+        <item>@array/keycode_spinner_item1</item>
+        <item>@array/keycode_spinner_item2</item>
+        <item>@array/keycode_spinner_item3</item>
+        <item>@array/keycode_spinner_item4</item>
+        <item>@array/keycode_spinner_item5</item>
+        <item>@array/keycode_spinner_item6</item>
+        <item>@array/keycode_spinner_item7</item>
+        <item>@array/keycode_spinner_item8</item>
+        <item>@array/keycode_spinner_item9</item>
+        <item>@array/keycode_spinner_item10</item>
+        <item>@array/keycode_spinner_item11</item>
+        <item>@array/keycode_spinner_item12</item>
+        <item>@array/keycode_spinner_item13</item>
+    </array>
+
+</resources>
