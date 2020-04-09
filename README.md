@@ -21,3 +21,14 @@ Windows、Macintosh或Linux PC和Android SDK构建应用程序/Windows PC、Move
 如何获取
 您可以在同意软件许可协议后下载SDK。
 
+=======
+
+BT-350 Documentation
+dev-tool : https://tech.moverio.epson.com/en/bt-350/developers_guide/developing_apps.html
+Technical Information : https://tech.moverio.epson.com/en/bt-350/document.html
+
+start class :
+https://www.youtube.com/watch?v=QNCEQnbX5ZM
+
+
+Unity sample code link : https://github.com/moverio
