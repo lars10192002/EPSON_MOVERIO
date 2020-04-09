@@ -1,0 +1,56 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ImageTrainingWrapper, Version=1.3.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Class ImageTrainingWrapper.InternalDataModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Media.Imaging.WriteableBitmap imageData : Public
+    System.String imageId : Public
+    ImageTrainingWrapper.PerformanceEstimate performanceEstimate : Public
+    Single physicalWidth : Public
+Class ImageTrainingWrapper.ImageTrainingModel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Int32 IMAGE_ID_MAXIMUM_LENGTH IsConst : Public, Static, HasDefault
+    Int32 PATH_AND_PACKAGE_MAXIMUM_LENGTH_FOR_THUMBNAIL IsConst : Public, Static
+    Int32 PATH_AND_PACKAGE_MAXIMUM_LENGTH_FOR_PACKAGE IsConst : Public, Static, HasDefault
+  Methods:
+    AddImage(String): PrivateScope, Public, HideBySig
+    RemoveImage(String): PrivateScope, Public, HideBySig
+    SetImageId(String, String): PrivateScope, Public, HideBySig
+    SetPhysicalDimensions(String, Single): PrivateScope, Public, HideBySig
+    GetState(String): PrivateScope, Public, HideBySig
+    InitTraining(String, String): PrivateScope, Public, HideBySig
+    ProcessImage(String): PrivateScope, Public, HideBySig
+    FinishTraining(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct ImageTrainingWrapper.PerformanceEstimate: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ImageTrainingWrapper.PerformanceEstimate Low = 0 : Public, Static, Literal, HasDefault
+    ImageTrainingWrapper.PerformanceEstimate Medium = 1 : Public, Static, Literal, HasDefault
+    ImageTrainingWrapper.PerformanceEstimate High = 2 : Public, Static, Literal, HasDefault
+Struct ImageTrainingWrapper.ImageTrainingResult: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ImageTrainingWrapper.ImageTrainingResult Success = 0 : Public, Static, Literal, HasDefault
+    ImageTrainingWrapper.ImageTrainingResult DuplicateFilename = 1 : Public, Static, Literal, HasDefault
+    ImageTrainingWrapper.ImageTrainingResult Failure = 2 : Public, Static, Literal, HasDefault
