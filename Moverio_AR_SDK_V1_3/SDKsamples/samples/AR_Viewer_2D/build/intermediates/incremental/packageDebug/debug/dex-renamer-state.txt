@@ -1,0 +1,4 @@
+#Tue May 05 11:46:34 CST 2020
+base.0=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer_2D/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer_2D/build/intermediates/transforms/dexMerger/debug/0/classes.dex

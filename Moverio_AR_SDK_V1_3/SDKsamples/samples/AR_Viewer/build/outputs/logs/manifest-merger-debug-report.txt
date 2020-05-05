@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:70-113
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:1-16:12
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:3:3-44
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:3:3-44
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:3:3-44
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:3:3-44
+INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:3:3-44
+	android:targetSdkVersion
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:3:13-42
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:3:3-44
+		INJECTED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:4:3-76
+	android:glEsVersion
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:4:17-49
+	android:required
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:4:50-73
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:5:3-63
+	android:name
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:5:20-60
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:7:3-79
+	android:name
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:7:20-76
+application
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:8:3-15:17
+	android:label
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:8:51-83
+	android:largeHeap
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:8:143-167
+	android:icon
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:8:16-50
+	android:theme
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:8:84-142
+activity#com.epson.arp.bt.samples.arviewer.AR_Viewer
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:9:5-14:16
+	android:screenOrientation
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:9:107-144
+	android:label
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:9:74-106
+	android:name
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:9:15-73
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:10:7-13:23
+action#android.intent.action.MAIN
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:11:9-61
+	android:name
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:11:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:12:9-69
+	android:name
+		ADDED from /Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/AndroidManifest.xml:12:19-66

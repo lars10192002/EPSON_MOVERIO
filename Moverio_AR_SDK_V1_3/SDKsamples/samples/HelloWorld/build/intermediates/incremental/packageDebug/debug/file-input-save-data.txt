@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Tue May 05 11:40:20 CST 2020
+2.base=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/stripDebugSymbol/debug/0
+5.file=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/res/debug/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/dexMerger/debug/0
+6.file=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/stripDebugSymbol/debug/0/lib/armeabi-v7a/libmoverioAR.so
+2.set=NATIVE_RESOURCE
+4.base=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/res/debug/resources-debug.ap_
+7.file=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/stripDebugSymbol/debug/0/lib/x86/libgnustl_shared.so
+7.set=NATIVE_RESOURCE
+count=8
+0.file=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/stripDebugSymbol/debug/0/lib/armeabi-v7a/libgnustl_shared.so
+5.base=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/res/debug/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/stripDebugSymbol/debug/0
+1.file=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launcher.png
+1.set=ANDROID_RESOURCE
+7.base=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/stripDebugSymbol/debug/0
+2.file=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/stripDebugSymbol/debug/0/lib/x86/libmoverioAR.so
+6.set=NATIVE_RESOURCE
+0.base=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/stripDebugSymbol/debug/0
+3.file=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/transforms/dexMerger/debug/0/classes.dex
+3.set=DEX
+1.base=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/res/debug/resources-debug.ap_
+4.file=/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/res/debug/resources-debug.ap_/resources.arsc
+0.set=NATIVE_RESOURCE

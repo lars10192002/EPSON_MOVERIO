@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "19,79",
+                        "endColumns": "58,87",
+                        "endOffsets": "73,162"
+                    },
+                    "to": {
+                        "startLines": "3,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "104,406",
+                        "endColumns": "57,80",
+                        "endOffsets": "157,482"
+                    }
+                },
+                {
+                    "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "48",
+                        "endOffsets": "101"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                },
+                {
+                    "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/src/main/res/values/theme.xml",
+                    "from": {
+                        "startLines": "3,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "59,314",
+                        "endLines": "7,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "302,575"
+                    },
+                    "to": {
+                        "startLines": "4,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "162,487",
+                        "endLines": "8,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "401,744"
+                    }
+                }
+            ]
+        }
+    ]
+}

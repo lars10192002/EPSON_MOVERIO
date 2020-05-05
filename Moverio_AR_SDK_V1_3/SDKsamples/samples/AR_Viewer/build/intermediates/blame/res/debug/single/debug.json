@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/build/intermediates/res/merged/debug/raw_orangesiren.obj.flat",
+        "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/raw/orangesiren.obj"
+    },
+    {
+        "merged": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/build/intermediates/res/merged/debug/raw_bluesiren.obj.flat",
+        "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/raw/bluesiren.obj"
+    },
+    {
+        "merged": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/build/intermediates/res/merged/debug/raw_headlights.obj.flat",
+        "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/raw/headlights.obj"
+    },
+    {
+        "merged": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/build/intermediates/res/merged/debug/layout_ar_track_ui.xml.flat",
+        "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/layout/ar_track_ui.xml"
+    },
+    {
+        "merged": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/build/intermediates/res/merged/debug/raw_papercar.obj.flat",
+        "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/raw/papercar.obj"
+    }
+]

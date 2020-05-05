@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AR_Viewer_2D</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="Theme.FullScreen" parent="android:Theme">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.NoTitle" parent="@android:style/Theme.Light.NoTitleBar"/>
+    <style name="Theme.Translucent" parent="android:style/Theme.Translucent">  
+    	<item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

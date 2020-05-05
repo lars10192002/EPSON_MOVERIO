@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_aars__:/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/HelloWorld/libs/moverio_ar_sdk.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HelloWorld/libs/moverio_ar_sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

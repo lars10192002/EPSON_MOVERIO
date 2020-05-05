@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AR_Viewer/AR_Viewer.iml" filepath="$PROJECT_DIR$/AR_Viewer/AR_Viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AR_Viewer_2D/AR_Viewer_2D.iml" filepath="$PROJECT_DIR$/AR_Viewer_2D/AR_Viewer_2D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AR_Viewer_2D_Scene/AR_Viewer_2D_Scene.iml" filepath="$PROJECT_DIR$/AR_Viewer_2D_Scene/AR_Viewer_2D_Scene.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AR_Viewer_Scene/AR_Viewer_Scene.iml" filepath="$PROJECT_DIR$/AR_Viewer_Scene/AR_Viewer_Scene.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples.iml" filepath="$PROJECT_DIR$/samples.iml" />
+    </modules>
+  </component>
+</project>

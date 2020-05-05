@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "105,145,57",
+                        "endColumns": "38,39,46",
+                        "endOffsets": "139,180,99"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,94,134",
+                        "endColumns": "38,39,46",
+                        "endOffsets": "89,129,176"
+                    }
+                },
+                {
+                    "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/values/theme.xml",
+                    "from": {
+                        "startLines": "3,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "59,314",
+                        "endLines": "7,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "302,575"
+                    },
+                    "to": {
+                        "startLines": "6,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "239,564",
+                        "endLines": "10,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "478,821"
+                    }
+                },
+                {
+                    "source": "/Users/lucakao/Workspace/B321Work/EPSON_MOVERIO/Moverio_AR_SDK_V1_3/SDKsamples/samples/AR_Viewer/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "19,79",
+                        "endColumns": "58,87",
+                        "endOffsets": "73,162"
+                    },
+                    "to": {
+                        "startLines": "5,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "181,483",
+                        "endColumns": "57,80",
+                        "endOffsets": "234,559"
+                    }
+                }
+            ]
+        }
+    ]
+}
